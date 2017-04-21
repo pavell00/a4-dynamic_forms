@@ -27,7 +27,7 @@ export class AppComponent implements AfterViewInit {
       type: 'input',
       label: 'Full name',
       name: 'name',
-      placeholder: 'Enter your name 2',
+      placeholder: 'Enter your name',
       validation: [Validators.required, Validators.minLength(4)]
     },
     {
